@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../portfolioimg/imgaes/b1.png),url(../portfolioimg/imgaes/bg1.jpeg);
+    background-size: 50% 100%,cover;
+    background-position: right,center;
+    background-repeat: no-repeat, no-repeat;
+    clip-path: polygon(50% 0, 100% 0, 100% 89%, 50% 100%, 0 90%, 0 0);
+    background-attachment: fixed;
+
+}
+    
+ 
+
+.logo{
+        color: white ;
+        font-size: 45px;
+        padding-left: 100px;
+        letter-spacing: 3px;
+        font-family: "Roboto", sans-serif;
+}
+
+
+.logo span{
+    color: rgb(228, 149, 29);
+}
+.menu{
+    margin-right: 100px;
+}
+  
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+   }
+    
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+   }
+.menu a:hover{
+    background-color: rgb(228, 149, 29);
+    transition-duration: 0.7s;
+   }
+.head{
+    padding-top: 100px;
+    padding-left: 100px;
+    color:white
+    
+}
+.head h4{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+}
+.head h1{
+    font-size: 50px;
+    margin: 10px 0px;
+    font-family: "Roboto", sans-serif;
+}
+.head span{
+    color: rgb(228, 149, 29);
+}
+.head button{
+    padding: 05px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.head button:hover{
+    background-color: rgb(228, 149, 29);
+color: black;
+transition: 0.7s;
+}
+    
+#about{
+    padding: 100px 50px;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+}
+.section-info h3{
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+
+}
+.section-info h6{
+
+    font-size: 22px;
+    color: rgb(228, 149, 29);
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+    
+.about-left-col{
+    flex-basis: 50%;
+
+}
+
+.about-left-col img{
+    width: 100%;
+    padding: 50px;
+}
+.about-right-col{
+    flex-basis: 50%;
+
+}
+.about-right-col h2{
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.about-right-col p{
+    font-size: 17px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
+#cv{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    padding: 1px 5px;
+    background-color: rgb(228, 149, 29);
+    border-color: aliceblue;
+
+
+    
+}
+#cv:hover{
+    background-color: rgb(228, 149, 29);
+    color: black;
+    transition: 0.4s;
+    border: none;
+
+    
+}
+#skills {
+    padding: 50px 50px;
+    background: url(imgaes/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(70, 59, 59, 0.806);
+    padding: 50px;
+    margin: 30px 30px;
+    
+}
+
+.left-skills{
+    flex-basis: 50%;
+    
+}
+
+.left-skills h2{
+    color: white;
+}
+.left-skills p{
+    color: white;
+}
+
+.right-skills{
+    flex-basis: 50%;
+}
+
+.left-skills p{
+    font-size: 17px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
+.left-skills h2{
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+}
+.progress-div span{
+    color: white;
+}
+progress{
+    width: 80%;
+}
+
+.progress-div{
+    width: 70%;
+    margin: auto;
+
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 23px;
+    padding-left: 75px;
+    text-align: justify;
+}
+#services{
+    padding: 50px 50px;
+    background-color: white;
+}
+.services-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+}
+    
+
+.services-box{
+    flex-basis: 25%;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 2px 3px 5px gray;
+    padding: 20px;
+}
+.services-box:hover{
+    background-color: rgb(228, 149, 29);
+    transition: 0.4s;
+    color: white;
+}
+.services-box img{
+    width: 60%;
+}
+.services-box h3{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+}
+.services-box p{
+    font-size: 15px;
+    padding-top: 10px;
+    
+}
+#Contact{
+    padding: 50px 50px;
+   background: linear-gradient(160deg,rgb(228, 148, 49) 45%, white 0%);
+
+}
+    
+
+
+.contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+    
+}
+.left-row{
+    flex-basis: 50%;
+}
+.right-row{
+    flex-basis: 50%;
+}
+.left-row img{
+    width: 100%;
+    padding: 50px;
+}
+.btn-ctn{
+    padding: 05px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-ctn:hover{
+    background-color: rgb(228, 149, 29);
+color: black;
+transition: 0.7s;
+}   
+.right-row{
+    text-align: center;
+}
+.right-row h3{
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+}
+.right-row form{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.right-row form input{
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+.right-row form textarea{
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+
+}
+#footer{
+    background-color: rgb(228, 149, 29);
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center 
+
+}
+#footer img{
+    width: 100px;
+}
+@media only screen and (max-width:770px){
+    header{
+        background: url(imgaes/bg1.jpeg);
+        background-size: cover;
+    }
+    
+    .menu a{
+        display: none;
+    }
+    .logo{
+        padding: 50px;
+    }
+    .head{
+        padding-left: 50px;
+    }
+    .about-left-col{
+        flex-basis: 100%;
+    
+    }
+    
+    .about-left-col img{
+        width: 100%;
+        padding: 50px;
+    }
+    .about-right-col{
+        flex-basis: 100%;
+    
+    }
+    .left-skills{
+        flex-basis: 100%;
+}      
+    .right-skills{
+    flex-basis: 100%;      
+    }
+    .left-skills p{
+        text-align:justify;
+       
+}
+
+
+    .progress-div{
+        width: 100%;
+        margin: auto;
+    
+    }
+    .progress-div p{
+        margin-bottom: 10px;
+        font-size: 23px;
+        padding-left: 20px;
+        text-align: justify;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+
+
+}
+
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(70, 59, 59, 0.806);
+    padding: 30px;
+    margin: 20px 20px;
+
+
+}
+
+.services-box{
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px gray;
+    padding: 20px
+}
+
+.left-row{
+    flex-basis: 100%;
+}
+.right-row{
+    flex-basis: 100%;
+}
+
+.services-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+}
+
+.right-row form input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.right-row form textarea{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.left-row img{
+    width: 100%;
+    padding: 10px;
+}
+
+.right-row form{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../portfolioimg/imgaes/b1.png),url(../portfolioimg/imgaes/bg1.jpeg);
+    background-size: 50% 100%,cover;
+    background-position: right,center;
+    background-repeat: no-repeat, no-repeat;
+    clip-path: polygon(50% 0, 100% 0, 100% 89%, 50% 100%, 0 90%, 0 0);
+    background-attachment: fixed;
+}
+}
